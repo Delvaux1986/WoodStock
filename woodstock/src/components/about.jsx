@@ -8,9 +8,9 @@ const about = () => {
     return (
         <div class="maindivabout">
             <div class="firstdivabout">
-                <div class="imgfauteuil">
-                    <img src={img} alt="Une chaise" />
-                </div>
+                
+                    <img src={img} alt="Une chaise" class="imgfauteuil" height="300px" width="300px"/>
+                
                 <div class="aboutus">    
                     <h2>About us</h2>
                     <p>Chocolate bar I love powder croissant I love jelly fruitcake. Candy canes cupcake dessert pastry oat cake. 
@@ -30,9 +30,9 @@ const about = () => {
                         Ice cream I love marshmallow fruitcake fruitcake.</p>
                         <button>blublucur</button>
                 </div>
-                <div className="imgtable">
-                    <img src={imgtable} alt=""/>
-                </div>
+                
+                    <img src={imgtable} alt="" class="imgtable" height="350px" width="250px"/>
+                
             </div>
         </div>
     );

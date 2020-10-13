@@ -22,7 +22,10 @@ button{
   height:6rem;
   width:10rem;
 }
-
+h3{
+  float:right;
+  padding-right:1rem;
+}
 
 
 .App {
@@ -69,17 +72,19 @@ button{
 .firstdivabout , .seconddivabout{
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height:400px;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
+  height:350px;
   margin-top:3rem;
   width:100%;
 }
 .aboutus , .shop{
   display:flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
   width:50%;
   height:350px;
 } 
@@ -89,30 +94,41 @@ button{
 }
 .aboutus > p , .shop > p {
   width:40%;
+  padding-bottom:1rem;
 }
 .imgfauteuil , .imgtable{
   overflow:hidden;
-  display:flex;
-  width:50%;
+  display:block;
+  
+  margin:0 auto;
 }
 /* Section TEAM  */
 .teamsection{
-  height:600px;
+  height:621px;
   width:100%;
   background-color: black;
   color:white;
+  justify-content: flex-start;
   align-self: flex-start;
+}
+.teamsection > img{
+  float:left;
+  margin-left:15rem;
+  opacity:0.8;
+}
+.h2thirdsection{
+  display:flex;
+  height:30px;
+  width:300px;
+  margin-top:5%;
+  align-self: center;
+  background-color: white;
+  color:#61dafb;
+
 }
 
 
 
 
 /* KEY FRAMES */
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
