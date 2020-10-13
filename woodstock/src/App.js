@@ -4,6 +4,7 @@ import './App.css';
 import Menu from './components/menu';
 import Jumbo from './components/jumbo';
 import About from './components/about';
+import Team from './components/team';
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <Menu/>
       <Jumbo />
       <About />
+      <Team/>
     </div>
   );
 }

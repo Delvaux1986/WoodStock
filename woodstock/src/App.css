@@ -15,8 +15,13 @@ li {
   margin-right: 5px;
   color:white;
 }
-
-
+button{
+  background-color: aqua;
+  border-radius: 25%;
+  color:white;
+  height:6rem;
+  width:10rem;
+}
 
 
 
@@ -64,20 +69,20 @@ li {
 .firstdivabout , .seconddivabout{
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   height:400px;
   margin-top:3rem;
   width:100%;
 }
 .aboutus , .shop{
-  display:inline-flex;
+  display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width:40%;
+  width:50%;
   height:350px;
-}
+} 
 .aboutus > h2 , .shop > h2{
   padding-left:15px;
   border-left: 5px solid grey;
@@ -86,11 +91,18 @@ li {
   width:40%;
 }
 .imgfauteuil , .imgtable{
-  border:2px solid black;
-  height:150px;
-  width:110px;
+  overflow:hidden;
+  display:flex;
+  width:50%;
 }
-
+/* Section TEAM  */
+.teamsection{
+  height:600px;
+  width:100%;
+  background-color: black;
+  color:white;
+  align-self: flex-start;
+}
 
 
 

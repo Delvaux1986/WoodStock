@@ -18,6 +18,7 @@ const about = () => {
                         Gummies candy canes bear claw bonbon cheesecake lollipop muffin cake sweet. Ice cream chocolate cake powder
                          pudding jelly-o icing toffee macaroon sweet roll. Bear claw chocolate bar jelly beans cupcake 
                          cupcake I love fruitcake cookie. Apple pie danish bonbon jelly sweet danish biscuit.</p>
+                        <button>Blablacar</button>
                 </div>
             </div>
             <div class="seconddivabout">
@@ -27,6 +28,7 @@ const about = () => {
                         Halvah I love marshmallow powder. Chocolate cake macaroon lollipop chocolate cake chocolate cake topping gummies. Toffee jelly jujubes oat cake.
                         Sweet dessert tiramisu candy cheesecake candy. Lollipop marshmallow tiramisu cake biscuit gingerbread sugar plum sweet roll chupa chups. Macaroon dragée tootsie roll bonbon cupcake I love. 
                         Ice cream I love marshmallow fruitcake fruitcake.</p>
+                        <button>blublucur</button>
                 </div>
                 <div className="imgtable">
                     <img src={imgtable} alt=""/>
