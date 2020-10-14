@@ -5,6 +5,8 @@ import Menu from './components/menu';
 import Jumbo from './components/jumbo';
 import About from './components/about';
 import Team from './components/team';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 
 
@@ -18,6 +20,8 @@ const App = () => {
       <Jumbo />
       <About />
       <Team/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
